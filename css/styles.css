@@ -40,3 +40,16 @@
  .service.featured h3{max-width:100%}
  .service.wide{grid-column:auto;padding:25px}
 }
+
+/* Refinos de espaçamento no topo e assinatura branca no rodapé */
+.footer .brand-logo{filter:brightness(0) invert(1);opacity:1}
+.hero-grid{padding-top:42px;padding-bottom:48px}
+.hero .eyebrow{margin-bottom:18px}
+.hero h1{margin-top:12px}
+.hero-note{margin-bottom:12px;padding-bottom:8px}
+@media(max-width:650px){
+ .hero-grid{padding:82px 0 58px}
+ .hero .eyebrow{margin-bottom:17px;line-height:1.5}
+ .hero h1{margin-top:12px}
+ .hero-note{margin-top:36px;margin-bottom:18px;padding-bottom:12px;gap:28px}
+}

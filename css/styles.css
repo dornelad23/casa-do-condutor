@@ -53,3 +53,12 @@
  .hero h1{margin-top:12px}
  .hero-note{margin-top:36px;margin-bottom:18px;padding-bottom:12px;gap:28px}
 }
+
+
+/* Ícones ilustrados dos serviços CAC, CNV e CRAF */
+.service.featured .service-icon{width:72px;height:72px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;border-radius:16px;background:#eaf2ed;color:var(--teal)}
+.service.featured .service-icon svg{width:42px;height:42px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.service.featured .service-icon span{font:800 .58rem Manrope;letter-spacing:.14em;color:var(--navy)}
+.service.featured .service-icon-cac{background:#eaf1f5;color:#275c78}
+.service.featured .service-icon-cnv{background:#e8f0eb;color:#326c60}
+.service.featured .service-icon-craf{background:#f4eee2;color:#94703c}
